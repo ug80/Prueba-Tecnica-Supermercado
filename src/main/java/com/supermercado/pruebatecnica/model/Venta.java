@@ -25,5 +25,5 @@ public class Venta {
     private Sucursal sucursal;
 
     @OneToMany(mappedBy = "venta")
-    private List<DetalleVenta> detalle = new ArrayList<>()
+    private List<DetalleVenta> detalle = new ArrayList<>();
 }

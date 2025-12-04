@@ -1,19 +1,17 @@
 package com.supermercado.pruebatecnica.dto;
 
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 @Getter @Setter
 @NoArgsConstructor
 @AllArgsConstructor
+@Builder
 
 public class DetalleVentaDTO {
     private Long id;
     private String nombreProd;
     private Integer cantProd;
     private Double precio;
-    private Double subotal;
+    private Double subtotal;
 }
